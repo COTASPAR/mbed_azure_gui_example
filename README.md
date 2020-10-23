@@ -35,7 +35,7 @@ It has been tested on K64F with Ethernet and DISCO_L475VG_IOT01A with WiFi, but 
 1. Click "New"
 ![step10](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step10_New.jpg)
 1. Give an ID name to your device then click "Save"
-![step11](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step11_ID_name_and_save)
+![step11](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step11_ID_name_and_save.jpg)
 1. Click on the device you have just created 
 ![step12](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step12.jpg)
 1. Copy the Primary Connection String
