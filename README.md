@@ -14,8 +14,32 @@ It has been tested on K64F with Ethernet and DISCO_L475VG_IOT01A with WiFi, but 
 <!--1. Create a new hub on the Azure portal ([documentation](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal#create-an-iot-hub)). You will need a [_Standard_ tier](https://azure.microsoft.com/en-gb/pricing/details/iot-hub/) hub to enable cloud-to-device messages for this example, and a free option is available in this tier.
 1. Register a new device to the hub you have created ([documentation](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal#register-a-new-device-in-the-iot-hub)). Make a copy of the "Primary Connection String" of the device.-->
 1. Create an [Azure account](https://azure.microsoft.com/en-gb/free/)
-1. Log in to your Azure account and you should see the console below:
+1. Log in to your Azure account and you should see the console below. Click on "Create a resource"
 ![step1](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step1.jpg)
+1. Click on "IoT Hub" by searching in the bar as shown below
+![step2](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step2.jpg)
+1. Click on "Create"
+![step3](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step3.jpg)
+1. Fill in the details ensuring the subscription is set to "Free Trial". Choose a resource group, region, and hub name of your choosing
+![step4](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step4.jpg)
+1. Ensure "Public endpoint (all networks)" is selected then click on "Next: Size and scale"
+![step5](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step5.jpg)
+1. Ensure price is set to "Free tier"
+![step6](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step6.jpg)
+1. Add a description of your device as shown below then click "Next: Review and create"
+![step7](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step7.jpg)
+1. Click "Create"
+![step8](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step8.jpg)
+1. Click "Add and configure IoT Devices"
+![step9](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step9_add_config_IoT_device.jpg)
+1. Click "New"
+![step10](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step10_New.jpg)
+1. Give an ID name to your device then click "Save"
+![step11](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step11_ID_name_and_save)
+1. Click on the device you have just created 
+![step12](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step12.jpg)
+1. Copy the Primary Connection String
+![step13](https://github.com/COTASPAR/mbed_azure_gui_example/blob/main/Step13.jpg)
 
 Now the IoT Hub is ready for use in this example.
 
